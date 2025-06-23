@@ -1,0 +1,28 @@
+﻿ @model List<List<Speedy_Groceries.Models.HomeProducts>>
+
+<div class="container my-4">
+    <h5 class="mb-3">Electronics</h5>
+
+    @foreach (var productGroup in Model)
+    {
+        <div class="d-flex overflow-auto px-2 gap-3 mb-4">
+
+            @foreach (var item in productGroup)
+            {
+                <a asp-controller="Products" asp-action="ProductDetail" asp-route-id="@item.Id">
+                    <div class="card text-center flex-shrink-0" style="width: 165px;">
+                        <img src="@Url.Content("~/" + item.Link)" class="card-img-top p-2" style="height: 120px; object-fit: contain; cursor: pointer;" alt="@item.Name" />
+                        
+                        <div class="card-body p-2">
+                            <p class="card-text mb-1" style="font-size: 14px;">@item.Name</p>
+                            <strong style="font-size: 13px; color: green;">@item.Offer</strong><br />
+                            <span style="font-size: 13px; color: #333;">@item.Price</span>
+                        </div>
+                    </div>
+                </a>
+            }
+
+        </div>
+    }
+</div>
+

@@ -1,0 +1,57 @@
+﻿ @model Speedy_Groceries.Models.UserInfo
+
+
+@*  @Html.DisplayForModel(); *@
+
+@* @Html.DisplayFor(x=>x.name);  *@
+
+
+<form method="post" asp-controller="Userentry" asp-action="Userdata">
+@Html.EditorForModel( )
+    <button type="submit" class="btn bg-info text-bg-light" style="margin-left:20px;">
+        Sign Up
+    </button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@* @Html.LabelFor(m => m.name) *@
+@*   @Html.TextBoxFor(m => m.name, new { @class = "form-control", style = "border: 1px solid gray; " })  *@
+
+@*   @Html.LabelFor(m => m.email)  *@
+@*  @Html.TextBoxFor(m => m.email, new { @class = "form-control", placeholder = "Enter your email" }) *@

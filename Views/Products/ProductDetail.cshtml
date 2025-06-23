@@ -1,0 +1,26 @@
+﻿@model Speedy_Groceries.Models.ProductsList
+
+
+<div class="container my-4">
+    <div class="d-flex overflow-auto px-2 gap-3 mb-4">
+
+       
+             
+              <div class="d-flex col">
+                <div class="card text-center flex-shrink-0" style="width: 550px;align-items:center">
+                <img src="@Url.Content("~/" + Model.Link)" class="card-img-top p-2" style="height: 300px;width:300px; object-fit: contain; cursor: pointer;" alt="@Model.Name" />
+                </div>
+                    <div class="card-body p-2 addandbuy">
+                        <p class="card-text mb-1" style="font-size: 14px;">@Model.Name</p>
+                        <strong style="font-size: 13px; color: green;">@Model.Offer</strong><br />
+                        <span style="font-size: 13px; color: #333;">@Model.Price</span><br />
+                        <button class="bg-warning font-monospace  text-bg-dark border-0 rounded-5 p-1 w-50 m-1 addcarbnt" > Add To Cart</button><br />
+                       <button class=" rounded-5 border-0 p-1 w-50 m-1 buybnt" style="background-color:yellow"> Buy Now</button>
+                    </div>
+ 
+              </div>
+            
+        
+
+    </div>
+</div>

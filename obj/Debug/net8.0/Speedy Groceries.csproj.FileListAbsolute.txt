@@ -1,0 +1,97 @@
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\appsettings.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Speedy Groceries.staticwebassets.runtime.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Speedy Groceries.staticwebassets.endpoints.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Speedy Groceries.exe
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Speedy Groceries.deps.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Speedy Groceries.runtimeconfig.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Speedy Groceries.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Speedy Groceries.pdb
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.Localization.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.csproj.AssemblyReference.cache
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.AssemblyInfoInputs.cache
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.AssemblyInfo.cs
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.csproj.CoreCompileInputs.cache
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.RazorAssemblyInfo.cache
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.RazorAssemblyInfo.cs
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\scopedcss\bundle\Speedy Groceries.styles.css
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets\msbuild.Speedy Groceries.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets\msbuild.Speedy Groceries.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets\msbuild.build.Speedy Groceries.props
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Speedy Groceries.props
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Speedy Groceries.props
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy G.2E3850D6.Up2Date
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\refint\Speedy Groceries.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.pdb
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\Speedy Groceries.genruntimeconfig.cache
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\obj\Debug\net8.0\ref\Speedy Groceries.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NAVINDRA\source\repos\Speedy Groceries\Speedy Groceries\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.EventLog.dll

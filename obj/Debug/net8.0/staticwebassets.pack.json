@@ -1,0 +1,405 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\CSS\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\BootStrap\\CSS\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.js",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\BootStrap\\JS\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\BootStrap\\JS\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\CSS\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\CSS\\StyleSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\Logo.png",
+      "PackagePath": "staticwebassets\\Image\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\Smartphone.jpg",
+      "PackagePath": "staticwebassets\\Image\\Smartphone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\Speedy Groceries.png",
+      "PackagePath": "staticwebassets\\Image\\Speedy Groceries.png"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\Speedy Groceries1.png",
+      "PackagePath": "staticwebassets\\Image\\Speedy Groceries1.png"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\Speedy Groceries2.png",
+      "PackagePath": "staticwebassets\\Image\\Speedy Groceries2.png"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\actioncam.jpg",
+      "PackagePath": "staticwebassets\\Image\\actioncam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\brandedfoods .jpg",
+      "PackagePath": "staticwebassets\\Image\\brandedfoods .jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\camera.jpg",
+      "PackagePath": "staticwebassets\\Image\\camera.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\carcharger.jpg",
+      "PackagePath": "staticwebassets\\Image\\carcharger.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\clock.jpg",
+      "PackagePath": "staticwebassets\\Image\\clock.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\console.jpg",
+      "PackagePath": "staticwebassets\\Image\\console.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\drone.jpg",
+      "PackagePath": "staticwebassets\\Image\\drone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\dumbbells.jpg",
+      "PackagePath": "staticwebassets\\Image\\dumbbells.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\earbuds.jpg",
+      "PackagePath": "staticwebassets\\Image\\earbuds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\firstaid.jpg",
+      "PackagePath": "staticwebassets\\Image\\firstaid.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\haircare.jpg",
+      "PackagePath": "staticwebassets\\Image\\haircare.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\hdd.jpg",
+      "PackagePath": "staticwebassets\\Image\\hdd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\hdmi.jpg",
+      "PackagePath": "staticwebassets\\Image\\hdmi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\headphones.jpg",
+      "PackagePath": "staticwebassets\\Image\\headphones.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\kettle.jpg",
+      "PackagePath": "staticwebassets\\Image\\kettle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\keyboard.jpg",
+      "PackagePath": "staticwebassets\\Image\\keyboard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\laptop.jpg",
+      "PackagePath": "staticwebassets\\Image\\laptop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\monitor.jpg",
+      "PackagePath": "staticwebassets\\Image\\monitor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\mouse.jpg",
+      "PackagePath": "staticwebassets\\Image\\mouse.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\powerbank.jpg",
+      "PackagePath": "staticwebassets\\Image\\powerbank.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\printer.jpg",
+      "PackagePath": "staticwebassets\\Image\\printer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\projector.jpg",
+      "PackagePath": "staticwebassets\\Image\\projector.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\protein.jpg",
+      "PackagePath": "staticwebassets\\Image\\protein.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\rope.jpg",
+      "PackagePath": "staticwebassets\\Image\\rope.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\router.jpg",
+      "PackagePath": "staticwebassets\\Image\\router.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\sanitizer.png",
+      "PackagePath": "staticwebassets\\Image\\sanitizer.png"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\shaver.jpg",
+      "PackagePath": "staticwebassets\\Image\\shaver.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\skin-care.jpg",
+      "PackagePath": "staticwebassets\\Image\\skin-care.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\smartbulb.jpg",
+      "PackagePath": "staticwebassets\\Image\\smartbulb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\smartplug.jpg",
+      "PackagePath": "staticwebassets\\Image\\smartplug.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\smarttv.jpg",
+      "PackagePath": "staticwebassets\\Image\\smarttv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\smartwatch.jpg",
+      "PackagePath": "staticwebassets\\Image\\smartwatch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\speaker.jpg",
+      "PackagePath": "staticwebassets\\Image\\speaker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\streamstick.jpg",
+      "PackagePath": "staticwebassets\\Image\\streamstick.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\surveillance.jpg",
+      "PackagePath": "staticwebassets\\Image\\surveillance.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\tablet.jpg",
+      "PackagePath": "staticwebassets\\Image\\tablet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\thermometer.jpg",
+      "PackagePath": "staticwebassets\\Image\\thermometer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\toothbrush.jpg",
+      "PackagePath": "staticwebassets\\Image\\toothbrush.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\tracker.jpg",
+      "PackagePath": "staticwebassets\\Image\\tracker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\tripod.jpg",
+      "PackagePath": "staticwebassets\\Image\\tripod.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\usbhub.jpg",
+      "PackagePath": "staticwebassets\\Image\\usbhub.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\vacuum.jpg",
+      "PackagePath": "staticwebassets\\Image\\vacuum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\vr.jpg",
+      "PackagePath": "staticwebassets\\Image\\vr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\webcam.jpg",
+      "PackagePath": "staticwebassets\\Image\\webcam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\Image\\yogamat.jpg",
+      "PackagePath": "staticwebassets\\Image\\yogamat.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Speedy Groceries.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Speedy Groceries.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Speedy Groceries.props",
+      "PackagePath": "build\\Speedy Groceries.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Speedy Groceries.props",
+      "PackagePath": "buildMultiTargeting\\Speedy Groceries.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Speedy Groceries.props",
+      "PackagePath": "buildTransitive\\Speedy Groceries.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
