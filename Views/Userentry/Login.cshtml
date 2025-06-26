@@ -1,4 +1,33 @@
-﻿
+﻿@model Speedy_Groceries.Models.UserInfo
 
 
-<h1 style="margin:200px;text-align:center"> User registered successfully🎉</h1>
+ 
+
+<div class="container">
+	<div class=" form-control  w-50  mt-3 mx-auto ">
+		<h1 class="text-center ">User Login</h1>
+	</div>
+	@if (ViewBag.Message != null)
+	{
+		<div class="alert alert-danger text-center w-50 mx-auto mt-3">
+			@ViewBag.Message
+		</div>
+	}
+	<form class="form-control w-50 pb-4 pt-4 px-4 mx-auto mt-3 mb-5" method="post" asp-controller="Userentry" asp-action="UserLog">
+	<div class="mb-3">
+		<label class="form-label">Email</label>
+			<input type="email" name="email" class="form-control" placeholder="Enter Your Email ID" required />
+	</div>
+	<div class="mb-3">
+		<label class="form-label">PassWord</label>
+			<input  type="password" name="password"class="form-control" placeholder="Enter Your Password" autocomplete="off" required />
+    </div>
+	<div class="mb-3">
+		<button class="btn btn-primary w-50">Login</button>
+	</div>
+	</form>
+</div>
+
+
+
+
