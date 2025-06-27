@@ -42,7 +42,7 @@ namespace Speedy_Groceries.Helpers
                 string sql3 = "Select 1 from userdata where phoneNumber=@phoneNumber";
                 SqlCommand command = new SqlCommand(sql3, sqlConnection);
 
-                command.Parameters.AddWithValue("@phoneNumber", userdata.phoneNumber );
+                command.Parameters.AddWithValue("@phoneNumber", userdata.phoneNumber);
 
                 var value = command.ExecuteScalar();
                 if (value != null)
@@ -65,7 +65,7 @@ namespace Speedy_Groceries.Helpers
                     return (true, "Registration successful");
                 }
             }
-            return (false, "Registration failed");
+            return (false, "Registration failed !");
         }
     }
 }
