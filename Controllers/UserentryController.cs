@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Speedy_Groceries.Models;
 using Microsoft.Data.SqlClient;
+using Speedy_Groceries.Helpers;
 namespace Speedy_Groceries.Controllers
 {
     public class UserentryController : Controller
@@ -20,52 +21,36 @@ namespace Speedy_Groceries.Controllers
        
         public IActionResult Userdata(UserInfo userdata)
         {
-             string name =userdata.name;
-             string email = userdata.email;
-            string password = userdata.password;
-
-            SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = EwebUserInfo; Integrated security=true; encrypt = false");
-            sqlConnection.Open();
-            string sql = "insert into userdata (name,email,password,address,phoneNumber) values(@name,@email,@password,@address,@phoneNumber)";
-            SqlCommand command = new SqlCommand(sql, sqlConnection);
-            command.Parameters.AddWithValue("@name",userdata.name);
-            command.Parameters.AddWithValue("@email", userdata.email);
-            command.Parameters.AddWithValue("@password", userdata.password);
-            command.Parameters.AddWithValue("@address",string.IsNullOrEmpty( userdata.address) ? DBNull.Value : userdata.address);
-            command.Parameters.AddWithValue("@phoneNumber", userdata.phoneNumber.HasValue ? userdata.phoneNumber.Value : DBNull.Value);
-            int value = command.ExecuteNonQuery();
-            sqlConnection.Close();
-            if (value > 0)
+            ViewBag.AlertType = "danger";
+            if (userdata.password != userdata.Confirmpassword)
             {
-                return View("Login");
+                ViewBag.Message = "Oops! Passwords do not match. Please try again.";
+                return View("Register", userdata);
             }
-             
             
-            return NoContent();
-        }
+            var Reg = SqlSignupHelper.UserReg(userdata);
+             ViewBag.Message = Reg.message;
+                if (Reg.isvaild)
+                {
+                 ViewBag.AlertType = "success";
+                 return View("Register", userdata);
+                }
+               
+                return View("Register", userdata);
+            }
+           
         public  IActionResult UserLog(UserInfo userdata)
         {
-
-            using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = EwebUserInfo; Integrated security=true; encrypt = false"))
-            {
-                sqlConnection.Open();
-                string sql = "select email, password from userdata where email= @email and password= @password";
-                SqlCommand command = new SqlCommand(sql, sqlConnection);
-
-                command.Parameters.AddWithValue("@email", userdata.email);
-                command.Parameters.AddWithValue("@password", userdata.password);
-
-                SqlDataReader reader = command.ExecuteReader();
-                 
-                if (reader.HasRows)
-                {
-                    reader.Close();
-                    return RedirectToAction("Index", "Home");
-                }
-                reader.Close();
-            }
+            TempData["LoginAth"] = false;
+            if (SqlLoginHelper.Logcheck(userdata))
+             {   
+              TempData["LoginAth"] = true;
+               return RedirectToAction("Index", "Home");
+             }   
             ViewBag.Message = "Invalid email or password";
             return View("Login");
         }
+
+       
     }
 }
