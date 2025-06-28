@@ -42,8 +42,13 @@
                     color: #007bff;
                 }
 
+        .ProductBox:hover {
+            box-shadow: 0px 8px 20px rgba(100, 100, 111, 0.2);
+           
+        }
     </style>
 </head>
+@{
 <body>
     <header class="Headerstay">
         <!-- Logo -->
@@ -58,7 +63,7 @@
             <input class="search-len" type="search" placeholder="Search Groceries Now" aria-label="Search">
             <button class="btn btn-outline-success iSearch " type="submit">Search</button>
         </form>
-
+        
         <!-- Login Dropdown -->
         <div class="dropdown">
             <a asp-controller="Userentry" asp-action="Login" class="btn dropdown-toggle dropdownBox b " type="button" id="dropdownMenuButton" aria-expanded="false">
@@ -66,10 +71,10 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <li><a class="dropdown-item" asp-controller="Userentry" asp-action="Register">Sign Up</a></li>
-                <li><a class="dropdown-item" href="#">My Profile</a></li>
-                <li><a class="dropdown-item" href="#">Orders</a></li>
-                <li><a class="dropdown-item" href="#">Wishlist</a></li>
-                <li><a class="dropdown-item" href="#">Rewards</a></li>
+                <li><a class="dropdown-item" asp-controller="Userentry" asp-action="Login">My Profile</a></li>
+                <li><a class="dropdown-item" asp-controller="Userentry" asp-action="Login">Orders</a></li>
+                <li><a class="dropdown-item" asp-controller="Userentry" asp-action="Login">Wishlist</a></li>
+                <li><a class="dropdown-item" asp-controller="Userentry" asp-action="Login">Rewards</a></li>
                 <li><a class="dropdown-item" href="#">Gift Card</a></li>
                 <li><a class="dropdown-item" href="#">Help</a></li>
             </ul>
@@ -90,8 +95,8 @@
 
      
     </header>
-    <div class="Tophead">
-        <nav>
+    <div class="Tophead" >
+        <nav  style="background-color:lightgreen;"  >
             <ul>
                 <li><a href="#Fashion">Fashion</a></li>
                 <li><a asp-controller="Products" asp-action="Electronics"> Electronics</a></li>
@@ -159,4 +164,5 @@
 
 
 </body>
+}
 </html>
