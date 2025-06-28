@@ -104,7 +104,6 @@ Visit:
 
 - Future: Unit tests for controllers and database logic
 - Manual testing for login/cart/product flows
-- SQL validation testing
 
 ---
 
