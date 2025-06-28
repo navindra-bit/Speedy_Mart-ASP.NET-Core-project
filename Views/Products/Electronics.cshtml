@@ -1,16 +1,16 @@
 ﻿ @model List<List<Speedy_Groceries.Models.HomeProducts>>
 
 <div class="container my-4">
-    <h5 class="mb-3">Electronics</h5>
+    <h5 class=" form-control text-center fw-bold mb-3" style="width:150px;margin-left:10px">Electronics</h5>
 
     @foreach (var productGroup in Model)
     {
-        <div class="d-flex overflow-auto px-2 gap-3 mb-4">
+        <div class="d-flex overflow-auto px-2 gap-3 mb-4 ">
 
             @foreach (var item in productGroup)
             {
-                <a asp-controller="Products" asp-action="ProductDetail" asp-route-id="@item.Id">
-                    <div class="card text-center flex-shrink-0" style="width: 165px;">
+                <a asp-controller="Products" asp-action="ProductDetail" asp-route-id="@item.Id" style="text-decoration:none">
+                    <div class="card text-center flex-shrink-0 ProductBox" style="width: 165px;">
                         <img src="@Url.Content("~/" + item.Link)" class="card-img-top p-2" style="height: 120px; object-fit: contain; cursor: pointer;" alt="@item.Name" />
                         
                         <div class="card-body p-2">
