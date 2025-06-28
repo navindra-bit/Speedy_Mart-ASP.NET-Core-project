@@ -8,7 +8,7 @@ namespace Speedy_Groceries.Helpers
 
         public static bool Logcheck(UserInfo info)
         {
-            string password = PasswordHelper.HashPassword(info.password);
+            string password = PasswordHelper.HashPassword(info.password!);
             using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = EwebUserInfo; Integrated security=true; encrypt = false"))
             {
                 sqlConnection.Open();
