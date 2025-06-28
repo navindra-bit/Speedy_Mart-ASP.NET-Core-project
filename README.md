@@ -1,12 +1,13 @@
-# 🛒 Speedy Groceries (In Development)
+# 🛒 Speedy Groceries (Learning Project - Work in Progress)
 
-**Speedy Groceries** is a work-in-progress ASP.NET Core MVC web application designed to simulate an online grocery shopping experience. Users will be able to register, browse products, add them to a cart, and place orders.
+**Speedy Groceries** is a self-learning project developed using ASP.NET Core MVC.  
+The purpose of this project is to practice web development concepts including MVC architecture, ADO.NET for database access, Razor Views, and Bootstrap for UI.
 
 ---
 
-## 📌 Project Status: 🚧 Under Development
+## 📌 Project Status: 🚧 Under Progress
 
-This project is actively being developed. Features, structure, and logic are subject to change.
+This project is being built **for educational purposes only**. It is not intended for production use. The structure, features, and logic are subject to change as I continue to explore new concepts and improve my skills.
 
 ---
 
@@ -46,7 +47,8 @@ SpeedyGroceries/
 - **C#**
 - **Razor Views**
 - **Bootstrap 5** (for responsive UI)
-- **HTML/CSS/JS**
+- **HTML & CSS**
+- **Basic JavaScript** (only for simple interactions or validation)
 
 ---
 
