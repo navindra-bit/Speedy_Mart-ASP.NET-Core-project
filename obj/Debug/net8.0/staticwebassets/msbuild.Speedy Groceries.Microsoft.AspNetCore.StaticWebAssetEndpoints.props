@@ -528,17 +528,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uhcwcohpr3"},{"Name":"integrity","Value":"sha256-QkP1fPCYPBMpsf2Oneb6HrXnjSoDIYbIzMVfitZBAFA="},{"Name":"label","Value":"_content/Speedy Groceries/BootStrap/JS/bootstrap.min.js"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"60697"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022QkP1fPCYPBMpsf2Oneb6HrXnjSoDIYbIzMVfitZBAFA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 14:08:22 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Speedy Groceries/CSS/StyleSheet.931cuy6x6m.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CSS\StyleSheet.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"931cuy6x6m"},{"Name":"integrity","Value":"sha256-hdbRrLMHMVcn/gM6mgIIirNaE2cFDr8jt0q1XnOYVQY="},{"Name":"label","Value":"_content/Speedy Groceries/CSS/StyleSheet.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3372"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hdbRrLMHMVcn/gM6mgIIirNaE2cFDr8jt0q1XnOYVQY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Jun 2025 11:49:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Speedy Groceries/CSS/StyleSheet.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CSS\StyleSheet.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-q6DYhq4h65RBEtnoZdH6s8A/rpspZLkyZMDQPPhoQAQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3365"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q6DYhq4h65RBEtnoZdH6s8A/rpspZLkyZMDQPPhoQAQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 15:36:31 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Speedy Groceries/CSS/StyleSheet.vzaw9u4apa.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CSS\StyleSheet.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vzaw9u4apa"},{"Name":"integrity","Value":"sha256-q6DYhq4h65RBEtnoZdH6s8A/rpspZLkyZMDQPPhoQAQ="},{"Name":"label","Value":"_content/Speedy Groceries/CSS/StyleSheet.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3365"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022q6DYhq4h65RBEtnoZdH6s8A/rpspZLkyZMDQPPhoQAQ=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 15:36:31 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hdbRrLMHMVcn/gM6mgIIirNaE2cFDr8jt0q1XnOYVQY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3372"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022hdbRrLMHMVcn/gM6mgIIirNaE2cFDr8jt0q1XnOYVQY=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Jun 2025 11:49:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Speedy Groceries/Image/actioncam.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Image\actioncam.jpg'))</AssetFile>

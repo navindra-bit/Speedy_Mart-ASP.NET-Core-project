@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cmxD+SEoxcjLMgvcneJ0RLnbAm7wcH2pnHE1e7WbWdM=",
+  "Hash": "sfqNuW+T00DNmEmFxIgXBUt7a/7yU0vXaFqTBYnGaIk=",
   "Source": "Speedy Groceries",
   "BasePath": "_content/Speedy Groceries",
   "Mode": "Default",
@@ -955,8 +955,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vzaw9u4apa",
-      "Integrity": "q6DYhq4h65RBEtnoZdH6s8A/rpspZLkyZMDQPPhoQAQ=",
+      "Fingerprint": "931cuy6x6m",
+      "Integrity": "hdbRrLMHMVcn/gM6mgIIirNaE2cFDr8jt0q1XnOYVQY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\CSS\\StyleSheet.css"
@@ -5622,6 +5622,51 @@
       ]
     },
     {
+      "Route": "CSS/StyleSheet.931cuy6x6m.css",
+      "AssetFile": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\CSS\\StyleSheet.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hdbRrLMHMVcn/gM6mgIIirNaE2cFDr8jt0q1XnOYVQY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 11:49:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "931cuy6x6m"
+        },
+        {
+          "Name": "label",
+          "Value": "CSS/StyleSheet.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hdbRrLMHMVcn/gM6mgIIirNaE2cFDr8jt0q1XnOYVQY="
+        }
+      ]
+    },
+    {
       "Route": "CSS/StyleSheet.css",
       "AssetFile": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\CSS\\StyleSheet.css",
       "Selectors": [],
@@ -5632,7 +5677,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3365"
+          "Value": "3372"
         },
         {
           "Name": "Content-Type",
@@ -5640,11 +5685,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"q6DYhq4h65RBEtnoZdH6s8A/rpspZLkyZMDQPPhoQAQ=\""
+          "Value": "\"hdbRrLMHMVcn/gM6mgIIirNaE2cFDr8jt0q1XnOYVQY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 15:36:31 GMT"
+          "Value": "Sat, 28 Jun 2025 11:49:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5654,52 +5699,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-q6DYhq4h65RBEtnoZdH6s8A/rpspZLkyZMDQPPhoQAQ="
-        }
-      ]
-    },
-    {
-      "Route": "CSS/StyleSheet.vzaw9u4apa.css",
-      "AssetFile": "C:\\Users\\NAVINDRA\\source\\repos\\Speedy Groceries\\Speedy Groceries\\wwwroot\\CSS\\StyleSheet.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3365"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"q6DYhq4h65RBEtnoZdH6s8A/rpspZLkyZMDQPPhoQAQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 15:36:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vzaw9u4apa"
-        },
-        {
-          "Name": "label",
-          "Value": "CSS/StyleSheet.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-q6DYhq4h65RBEtnoZdH6s8A/rpspZLkyZMDQPPhoQAQ="
+          "Value": "sha256-hdbRrLMHMVcn/gM6mgIIirNaE2cFDr8jt0q1XnOYVQY="
         }
       ]
     },

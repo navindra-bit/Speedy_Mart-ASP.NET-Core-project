@@ -7,8 +7,8 @@ namespace Speedy_Groceries.Helpers
     {
         public static (bool isvaild , string message) UserReg(UserInfo userdata)
         {
-            string name = userdata.name;
-            string email = userdata.email;
+            string? name = userdata.name;
+            string? email = userdata.email;
             string password = PasswordHelper.HashPassword(userdata.password);
             using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = EwebUserInfo; Integrated security=true; encrypt = false"))
             {

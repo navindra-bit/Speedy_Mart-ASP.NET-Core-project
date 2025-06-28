@@ -3,10 +3,11 @@
     public class UserInfo
     {
         public int? uid {  get; set; }
-        public string name { get; set; }
-        public string password { get; set; }
-        public string email { get; set; }
+        public string? name { get; set; }
+        public string? password { get; set; }
+        public string? Confirmpassword { get; set; }
+        public string? email { get; set; }
         public string? address { get; set; }
-        public int? phoneNumber { get; set; }
+        public long? phoneNumber { get; set; }
     }
 }
