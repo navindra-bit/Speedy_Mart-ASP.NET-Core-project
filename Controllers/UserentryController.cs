@@ -42,8 +42,10 @@ namespace Speedy_Groceries.Controllers
         public  IActionResult UserLog(UserInfo userdata)
         {
             TempData["LoginAth"] = false;
-            if (SqlLoginHelper.Logcheck(userdata))
-             {   
+            var isvaild = SqlLoginHelper.Logcheck(userdata);
+            if (isvaild.Item1)
+             {
+                TempData["username"] = isvaild.Item2;
               TempData["LoginAth"] = true;
                return RedirectToAction("Index", "Home");
              }   
@@ -51,6 +53,10 @@ namespace Speedy_Groceries.Controllers
             return View("Login");
         }
 
-       
+        public IActionResult Logout()
+        {
+            TempData["LoginAth"] = false;
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
