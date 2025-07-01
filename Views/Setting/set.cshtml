@@ -1,0 +1,21 @@
+﻿<div style="display: flex; height: 500px;">
+    <!--  menu -->
+    <div class="mt-3 me-3">
+        <ul class="form-control p-3" style="height: 500px; list-style-type: none;">
+            <li><a class="text-decoration-none form-control mb-3" asp-action="UserProfile" asp-controller="Setting" target="settingsFrame">👤 Profile</a></li>
+            <li><a class="text-decoration-none form-control mb-3" asp-action="DeleteAccount" asp-controller="Setting" target="settingsFrame">🔒 Delete Account</a></li>
+            <li><a class="text-decoration-none form-control" asp-action="Help" asp-controller="Setting" target="settingsFrame">🔔 Notifications / Help</a></li>
+        </ul>
+    </div>
+
+    <!--  Frame -->
+    <div style="flex-grow: 1;" class="mt-3">
+        <iframe name="settingsFrame"
+                class="w-100 h-100 form-control"
+                frameborder="0"
+                style="border: 1px solid #ccc; height: 500px; " 
+                src=" @Url.Action("UserProfile", "Setting")">
+           
+        </iframe>
+    </div>
+</div>
