@@ -8,9 +8,11 @@ Email nvarchar(100) unique not null ,
 Password nvarchar(100) not null,
 Gender Nvarchar(10) ,
 DateOfBirth Date ,
-PhoneNumber Bigint ,
+PhoneNumber Bigint  ,
 ProfileImage Nvarchar(300),
 CreatedAt datetime default getdate())
 
  
 select * from UserInfo
+
+drop table Userinfo
