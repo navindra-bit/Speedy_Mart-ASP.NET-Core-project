@@ -1,0 +1,236 @@
+﻿@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+   
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS (required for modal) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .hide-scrollbar {
+            overflow-y: scroll;  
+            scrollbar-width: none;  
+            -ms-overflow-style: none;  
+        }
+
+            .hide-scrollbar::-webkit-scrollbar {
+                display: none; 
+            }
+</style>
+ 
+</head>
+<body>
+
+   
+ 
+
+     @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-danger text-center w-50 mx-auto mt-3">
+            @ViewBag.Message
+        </div>
+    }
+
+    
+    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteAccountModal">
+        Delete Account
+    </button>
+
+   
+    <div class="modal fade" id="deleteAccountModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+                
+                <div class="modal-header">
+                    <h5 class="modal-title"  >Comfirm User</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+
+                <div class="alert alert-warning">
+                    <strong>Warning:</strong> You will lose access to SpeedyMart  permanently.
+                </div>
+                   
+                    <div class="modal-footer">
+                        <div  >
+                            <a asp-controller="Setting" asp-action="AccountDelete" asp-route-userid="@TempData.Peek("Userid")">
+
+                            <input class="btn btn-danger" value="Delete Account" type="button"/>
+                            </a>
+                        </div>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+               
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*   <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteAccountModal">
+        Delete Account
+    </button>
+    <div class="modal fade" id="deleteAccountModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <form >
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="deleteModalLabel">We are sorry to see you go!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body" style=" height: 60vh; overflow-y: auto;">
+                        <p><strong>Deleting your account is a permanent action.</strong></p>
+
+                        <ul>
+                            <li>Once deleted, your account and data cannot be recovered.</li>
+                            <li>You will lose all saved items, orders, and reward balances.</li>
+                            <li>Please review all terms and conditions before proceeding.</li>
+                        </ul>
+
+
+
+
+
+
+                        <div class="alert alert-warning">
+                            <strong>Warning:</strong> You will lose access to SpeedyMart  permanently.
+                        </div>
+
+
+
+
+
+
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" id="agree1" required>
+                            <label class="form-check-label" for="agree1">
+                                I have read and agreed to the Terms and Conditions.
+                            </label>
+                        </div>
+
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="checkbox" id="agree2" required>
+                            <label class="form-check-label" for="agree2">
+                                I acknowledge I do not have any Gift Cards or balances in my account.
+                            </label>
+                        </div>
+
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" id="agree3" required>
+                            <label class="form-check-label" for="agree3">
+                                I understand I cannot return/replace items or view old transactions.
+                            </label>
+                        </div>
+
+
+
+                        <div class="mb-3">
+                            <label for="feedback" class="form-label">Please tell us why you're leaving</label>
+                            <textarea class="form-control" id="feedback" name="feedback" rows="3" placeholder="Your feedback helps us improve."></textarea>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="modal-footer">
+                        <div class="d-flex justify-content-center ">
+                            <a asp-controller="Setting" asp-action="AccountDelete">
+                                <input class="btn btn-danger   " value="Delete Account" />
+                            </a>
+                        </div>
+                        <button type="button" class="btn btn-secondary  " data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> *@
+
+
+
+
+@*  @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-danger text-center w-50 mx-auto mt-3">
+            @ViewBag.Message
+        </div>
+    }
+
+
+    <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteAccountModal">
+        Delete Account
+    </button>
+
+
+    <div class="modal fade" id="deleteAccountModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteModalLabel">Comfirm User Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+
+                <form asp-action="AccountDelete" asp-controller="Setting" method="post">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" class="form-control"   name="email" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password" required />
+                        </div>
+                    </div>
+
+
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">Delete</button>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+ *@
+
+
+
+@*     <div class="d-flex justify-content-center ">
+        <a asp-controller="Setting" asp-action="AccountDelete" asp-route-userid="@TempData.Peek("Userid")">
+
+            <input class="btn btn-danger" value="Delete Account" />
+        </a>
+    </div> *@
