@@ -80,7 +80,8 @@ namespace Speedy_Groceries.Controllers
             return View(electronics);
  
         }
-        [HttpGet]
+        [HttpGet("ProductInfo")]
+        [Route("Home/productsinfo/{id}")]
         public IActionResult ProductDetail(int id)
         {
             InitializeElectronics();
