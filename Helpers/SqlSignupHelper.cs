@@ -5,41 +5,53 @@ namespace Speedy_Groceries.Helpers
 {
     public class SqlSignupHelper
     {
-        public static (bool isvaild , string message) UserReg(UserInfo userdata)
+        public static bool   UserNameExists(UserInfo userdata)
         {
+
             string? name = userdata.name;
-            string? email = userdata.email;
-            string password = PasswordHelper.HashPassword(userdata.password);
-            using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = EwebUserInfo; Integrated security=true; encrypt = false"))
+
+
+            using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = SpeedyMartDB; Integrated security=true; encrypt = false"))
             {
                 sqlConnection.Open();
-                string sql1 = "Select 1 from userdata where name=@name";
+                string sql1 = "Select 1 from UserInfo where FullName=@name";
                 SqlCommand command = new SqlCommand(sql1, sqlConnection);
                 command.Parameters.AddWithValue("@name", userdata.name);
                 var value = command.ExecuteScalar();
                 if (value != null)
                 {
-                    return (false, "UserName Already Exists");
+                    return false;
                 }
             }
-            using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = EwebUserInfo; Integrated security=true; encrypt = false"))
+            return true;
+
+        }
+        public static  bool  UserEmailExists(UserInfo userdata)
+        {
+            string? email = userdata.email;
+            using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = SpeedyMartDB; Integrated security=true; encrypt = false"))
             {
                 sqlConnection.Open();
-                string sql2 = "Select 1 from userdata where email=@email";
+                string sql2 = "Select 1 from UserInfo where Email=@email";
                 SqlCommand command = new SqlCommand(sql2, sqlConnection);
-                 
+
                 command.Parameters.AddWithValue("@email", userdata.email);
-                 
+
                 var value = command.ExecuteScalar();
                 if (value != null)
                 {
-                    return (false, "UserEmail Already Exists");
+                    return  false ;
                 }
             }
-            using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = EwebUserInfo; Integrated security=true; encrypt = false"))
+            return  true ;
+        }
+
+        public static  bool  UserPhoneNumberExists(UserInfo userdata)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = SpeedyMartDB; Integrated security=true; encrypt = false"))
             {
                 sqlConnection.Open();
-                string sql3 = "Select 1 from userdata where phoneNumber=@phoneNumber";
+                string sql3 = "Select 1 from UserInfo where PhoneNumber=@phoneNumber";
                 SqlCommand command = new SqlCommand(sql3, sqlConnection);
 
                 command.Parameters.AddWithValue("@phoneNumber", userdata.phoneNumber);
@@ -47,18 +59,32 @@ namespace Speedy_Groceries.Helpers
                 var value = command.ExecuteScalar();
                 if (value != null)
                 {
-                    return (false, "UserPhoneNumber Already Exists");
+                    return  false ;
                 }
             }
-            using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = EwebUserInfo; Integrated security=true; encrypt = false"))
+            return  true ;
+        }
+
+        public static (bool isvaild , string message) UserReg(UserInfo userdata)
+        {
+            
+            string? name = userdata.name;
+            string? email = userdata.email;
+
+
+
+
+            string? password = userdata.password!;
+            //string? password = PasswordHelper.HashPassword(userdata.password!);
+            using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = SpeedyMartDB; Integrated security=true; encrypt = false"))
             {
                 sqlConnection.Open();
-                string sql = "insert into userdata (name,email,password,phoneNumber) values(@name,@email,@password ,@phoneNumber)";
+                string sql = "insert into UserInfo (FullName,Email,Password,PhoneNumber) values(@name,@email,@password ,@phoneNumber)";
                 SqlCommand command = new SqlCommand(sql, sqlConnection);
                 command.Parameters.AddWithValue("@name", userdata.name);
                 command.Parameters.AddWithValue("@email", userdata.email);
                 command.Parameters.AddWithValue("@password", password);                
-                command.Parameters.AddWithValue("@phoneNumber", userdata.phoneNumber.HasValue ? userdata.phoneNumber.Value : DBNull.Value);
+                command.Parameters.AddWithValue("@phoneNumber", userdata.phoneNumber);
                 int value = command.ExecuteNonQuery();
                 if (value > 0)
                 {
@@ -67,5 +93,6 @@ namespace Speedy_Groceries.Helpers
             }
             return (false, "Registration failed !");
         }
+
     }
 }
