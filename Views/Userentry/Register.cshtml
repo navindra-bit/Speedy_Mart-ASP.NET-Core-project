@@ -19,8 +19,10 @@
  
 
 
-<div class="container  " >
-    <div class=" form-control  w-50   mx-auto ">
+ 
+ 
+<div class="container">
+    <div class=" form-control  w-50  mt-3  mx-auto ">
         <h1 class="text-center ">Register</h1>
     </div>
     @if (ViewBag.Message != null)
@@ -29,35 +31,41 @@
             @ViewBag.Message
         </div>
     }
+
     <form class="form-control w-50 pb-4 pt-4 px-4 mx-auto mt-3 mb-5" method="post" asp-controller="Userentry" asp-action="Userdata">
-        
+
 
         <!-- Full Name -->
         <div class="mb-3">
             <label class="form-label">Full Name</label>
-            <input type="text" name="name" class="form-control" value="@Model.name" placeholder="Enter Your Full Name" required />
+            <input type="text" name="name" class="form-control" value="@Model.name" placeholder="Enter Your Full Name" />
+            <span asp-validation-for="name" class="text-danger"></span>
         </div>
 
         <!-- Email -->
         <div class="mb-3">
             <label class="form-label">Email</label>
-            <input type="email" name="email" class="form-control" value="@Model.email" placeholder="Enter Your Email ID" required />
+            <input type="email" name="email" class="form-control" value="@Model.email" placeholder="Enter Your Email ID" />
+            <span asp-validation-for="email" class="text-danger"></span>
         </div>
         <!-- PhoneNumber -->
         <div class="mb-3">
             <label class="form-label">PhoneNumber</label>
-            <input type="number" name="phoneNumber" class="form-control" maxlength="10" value="@Model.phoneNumber" placeholder="Enter Your PhoneNumber" required />
+            <input type="number" name="phoneNumber" class="form-control" maxlength="10" value="@Model.phoneNumber" placeholder="Enter Your PhoneNumber" />
+            <span asp-validation-for="phoneNumber" class="text-danger"></span>
         </div>
         <!-- Password -->
         <div class="mb-3">
             <label class="form-label">Password</label>
-            <input type="password" name="password" class="form-control"   placeholder="Enter Your Password" autocomplete="off" required />
+            <input type="password" name="password" class="form-control" placeholder="Enter Your Password" autocomplete="off" />
+            <span asp-validation-for="password" class="text-danger"></span>
         </div>
 
         <!-- Confirm Password -->
         <div class="mb-4">
             <label class="form-label">Confirm Password</label>
-            <input type="password" name="Confirmpassword" class="form-control" placeholder="Confirm Your Password" autocomplete="off" required />
+            <input type="password" name="Confirmpassword" class="form-control" placeholder="Confirm Your Password" autocomplete="off" />
+            <span asp-validation-for="Confirmpassword" class="text-danger"></span>
         </div>
 
         <!-- Submit Button -->
@@ -66,8 +74,6 @@
         </div>
     </form>
 </div>
-
-
 
  
  
