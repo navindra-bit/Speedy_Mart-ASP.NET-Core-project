@@ -13,7 +13,7 @@ namespace Speedy_Groceries.Controllers
         {
             return View();
         }
-        public IActionResult set()
+        public IActionResult Set()
         {
             return View();
         }
@@ -40,6 +40,53 @@ namespace Speedy_Groceries.Controllers
             ViewBag.Message = result.Item2;
             return View("DeleteAccount");
         }
+
+
+
+
+
+
+
+
+        public IActionResult EditProfile()
+        {
+            var user = new UserInfo
+            {
+                name = "John Doe",
+                email = "john@example.com",
+                phoneNumber = "9876543210"
+            };
+
+            ViewBag.EditMode = false; // Initially read-only
+            return View(user);
+        }
+
+        [HttpPost]
+        public IActionResult EditProfile(UserInfo user)
+        {
+            ViewBag.EditMode = true; // Allow editing after button click
+            return View(user);
+        }
+
+        [HttpPost]
+        public IActionResult SaveProfile(UserInfo user)
+        {
+            // Save logic here
+            ViewBag.EditMode = false;
+            return View("EditProfile", user);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
