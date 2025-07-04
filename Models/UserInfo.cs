@@ -8,11 +8,13 @@ namespace Speedy_Groceries.Models
         [ValidateNever]
         public int? uid {  get; set; }
 
+        [Display(Name = "Full Name")]
         [DataType(DataType.Text)]
         [Required(ErrorMessage = "*Please enter the username.")]
         [MaxLength(18,ErrorMessage = "*Maximum length is 18 characters.")]
         public string? name { get; set; }
 
+        [Display(Name = "Password")]
         [DataType(DataType.Password)]
         [Required(ErrorMessage = "*Please enter the password.")]
         [RegularExpression("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$",
@@ -23,7 +25,9 @@ namespace Speedy_Groceries.Models
         [Compare("password",ErrorMessage = "*Passwords do not match.")]
         [DataType(DataType.Password)]
         public string? Confirmpassword { get; set; }
-      
+
+
+        [Display(Name = "Email")]
         [Required(ErrorMessage = "*Please enter your email.")]
         [EmailAddress(ErrorMessage = "*Invalid email address.")]
         [DataType(DataType.EmailAddress)]
