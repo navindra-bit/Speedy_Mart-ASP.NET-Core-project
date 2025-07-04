@@ -1,7 +1,7 @@
 ﻿@model Speedy_Groceries.Models.LoginInfo
 
 
-@* Login *@ 
+<!-- Login Page -->
 
 <div class="container">
 	<div class=" form-control  w-50  mt-3 mx-auto ">
@@ -9,20 +9,20 @@
 	</div>
 	 
 	<form class="form-control w-50 pb-4 pt-4 px-4 mx-auto mt-3 mb-5" method="post" asp-controller="Userentry" asp-action="UserLog">
-		<!-- Email -->
-	<div class="mb-3">
-		<label class="form-label">Email</label>
-			<input type="email" name="Loginemail" value="@Model?.Loginemail" class="form-control" placeholder="Enter Your Email ID" />
+		<!-- Email -->  <!-- Using Tag Helper (Eg: asp-for=".....")-->
+		<div class="mb-3">
+			<label asp-for="Loginemail"  class="form-label"></label>
+			<input asp-for="Loginemail" class="form-control" placeholder="Enter Your Email ID" />
 			<span asp-validation-for="Loginemail" class="text-danger"></span>
 	</div>
-		<!-- Password -->
+		<!-- Password -->  <!-- Using Normal HTML (Eg: Type,name) -->
 	<div class="mb-3">
-		<label class="form-label">PassWord</label>
+		    <label class="form-label">PassWord</label>
 			<input type="password" name="Loginpassword" class="form-control" placeholder="Enter Your Password" autocomplete="off" />
 			<span asp-validation-for="Loginpassword" class="text-danger"></span>
     </div>
 		<!-- Submit Button -->
-	<div class="mb-3">
+	<div class="mb-3 text-center">
 		<button class="btn btn-primary w-50">Login</button>
 	</div>
 	</form>
