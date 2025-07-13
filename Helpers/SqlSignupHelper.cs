@@ -75,7 +75,7 @@ namespace Speedy_Groceries.Helpers
 
 
             string? password = userdata.password!;
-            string? password = PasswordHelper.HashPassword(userdata.password!);
+            //string? password = PasswordHelper.HashPassword(userdata.password!);
             using (SqlConnection sqlConnection = new SqlConnection("Data Source=NAVINDRA-M\\SQLEXPRESS; Initial Catalog = SpeedyMartDB; Integrated security=true; encrypt = false"))
             {
                 sqlConnection.Open();
