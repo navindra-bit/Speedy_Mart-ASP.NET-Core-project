@@ -6,7 +6,8 @@ namespace Speedy_Groceries.Models
     public class UserInfo
     {
         [ValidateNever]
-        public int? uid {  get; set; }
+        [Key]
+        public int uid {  get; set; }
 
         [Display(Name = "Full Name")]
         [DataType(DataType.Text)]
@@ -40,5 +41,9 @@ namespace Speedy_Groceries.Models
         [Required(ErrorMessage = "*Please enter your phone number.")]
         [Phone(ErrorMessage = "*Invalid phone number.")]
         public string? phoneNumber { get; set; }
+
+        //[DataType(DataType.DateTime)]
+        //public DateTime DataCreate {  get; set; } = DateTime.Now;
+       
     }
 }
