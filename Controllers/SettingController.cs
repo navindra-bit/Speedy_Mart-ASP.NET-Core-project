@@ -3,8 +3,9 @@ using Speedy_Groceries.Helpers;
 using Speedy_Groceries.Models;
 namespace Speedy_Groceries.Controllers
 {
-    public class SettingController : Controller
+    public class SettingController(AppDataBaseContext dbcontext) : Controller
     {
+        private readonly AppDataBaseContext _dbcontext = dbcontext;
         public IActionResult UserProfile()
         {
             return View();
@@ -28,17 +29,16 @@ namespace Speedy_Groceries.Controllers
 
         public IActionResult AccountDelete(string userid)
         {
-            var result = SqlAccountDeleteHelper.AccDelete(userid);
+            var data = _dbcontext.UserInfo.FirstOrDefault(x => x.uid == Convert.ToInt32(userid));
 
-            if (result.Item1)
+            
+            if(data != null)
             {
-              
-                return View("RedirectToLogout");
+                _dbcontext.UserInfo.Remove(data);
+                _dbcontext.SaveChanges();
             }
 
-             
-            ViewBag.Message = result.Item2;
-            return View("DeleteAccount");
+            return RedirectToAction("Logout", "Userentry");
         }
 
 
@@ -48,33 +48,33 @@ namespace Speedy_Groceries.Controllers
 
 
 
-        public IActionResult EditProfile()
-        {
-            var user = new UserInfo
-            {
-                name = "John Doe",
-                email = "john@example.com",
-                phoneNumber = "9876543210"
-            };
+        //public IActionResult EditProfile()
+        //{
+        //    var user = new UserInfo
+        //    {
+        //        name = "John Doe",
+        //        email = "john@example.com",
+        //        phoneNumber = "9876543210"
+        //    };
 
-            ViewBag.EditMode = false; // Initially read-only
-            return View(user);
-        }
+        //    ViewBag.EditMode = false; // Initially read-only
+        //    return View(user);
+        //}
 
-        [HttpPost]
-        public IActionResult EditProfile(UserInfo user)
-        {
-            ViewBag.EditMode = true; // Allow editing after button click
-            return View(user);
-        }
+        //[HttpPost]
+        //public IActionResult EditProfile(UserInfo user)
+        //{
+        //    ViewBag.EditMode = true; // Allow editing after button click
+        //    return View(user);
+        //}
 
-        [HttpPost]
-        public IActionResult SaveProfile(UserInfo user)
-        {
-            // Save logic here
-            ViewBag.EditMode = false;
-            return View("EditProfile", user);
-        }
+        //[HttpPost]
+        //public IActionResult SaveProfile(UserInfo user)
+        //{
+        //    // Save logic here
+        //    ViewBag.EditMode = false;
+        //    return View("EditProfile", user);
+        //}
 
 
 
