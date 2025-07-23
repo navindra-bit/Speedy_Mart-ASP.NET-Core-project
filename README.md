@@ -102,8 +102,8 @@ Visit:
 
 ## 🧪 Testing Plan
 
-- Future: Unit tests for controllers and database logic
-- Manual testing for login/cart/product flows
+- Future: Unit tests for controllers and database logic.
+- Manual testing for login/cart/product flows.
 
 ---
 
